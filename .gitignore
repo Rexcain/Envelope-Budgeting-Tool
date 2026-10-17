@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+*.log
+# personal backups exported from the app — never commit real data
+envelope-ledger-*.json
+envelope-ledger-*.csv
