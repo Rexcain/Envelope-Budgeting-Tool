@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "author": "Menghan Rex Jiang",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "start": "python3 -m http.server 8080",
     "test": "node --test tests/*.test.js"
