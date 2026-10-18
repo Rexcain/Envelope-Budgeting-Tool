@@ -39,7 +39,7 @@
 
 **方式一：直接在线用（推荐）**
 
-1. 打开 <https://rexcain.github.io/envelope-ledger/>
+1. 打开 <https://rexcain.github.io/Envelope-Budgeting-Tool/>
 2. 第一次打开时填好：第一个记账月、低线、高线、货币符号和你的信封。也可以先点「用示例数据试试」看看效果。
 3. **装到手机桌面**（像 App 一样离线使用）：
    - iPhone（Safari）：点「分享」→「添加到主屏幕」
@@ -50,8 +50,8 @@
 需要装好 [Git](https://git-scm.com/) 和 Python 3（macOS 自带）。
 
 ```bash
-git clone https://github.com/Rexcain/envelope-ledger.git
-cd envelope-ledger
+git clone https://github.com/Rexcain/Envelope-Budgeting-Tool.git
+cd Envelope-Budgeting-Tool
 python3 -m http.server 8080
 ```
 
@@ -63,7 +63,7 @@ python3 -m http.server 8080
 
 1. 在 GitHub 上 **Fork** 这个仓库。
 2. 进入你 fork 的仓库 → **Settings → Pages**，把 **Source** 设为 **GitHub Actions**。
-3. 推送任何改动到 `main`，几分钟后就能在 `https://<你的用户名>.github.io/envelope-ledger/` 打开。
+3. 推送任何改动到 `main`，几分钟后就能在 `https://<你的用户名>.github.io/Envelope-Budgeting-Tool/` 打开。
 
 ### 数据与隐私
 
@@ -109,7 +109,7 @@ Monthly discretionary spending is managed with two lines:
 
 **Option 1: use it online (recommended)**
 
-1. Open <https://rexcain.github.io/envelope-ledger/>
+1. Open <https://rexcain.github.io/Envelope-Budgeting-Tool/>
 2. On first launch, set your first month, low line, high line, currency symbol and envelopes — or tap **Try with sample data** to look around first.
 3. **Install it on your phone** (works offline, like an app):
    - iPhone (Safari): Share → **Add to Home Screen**
@@ -120,8 +120,8 @@ Monthly discretionary spending is managed with two lines:
 You need [Git](https://git-scm.com/) and Python 3 (preinstalled on macOS).
 
 ```bash
-git clone https://github.com/Rexcain/envelope-ledger.git
-cd envelope-ledger
+git clone https://github.com/Rexcain/Envelope-Budgeting-Tool.git
+cd Envelope-Budgeting-Tool
 python3 -m http.server 8080
 ```
 
@@ -133,7 +133,7 @@ Then open <http://localhost:8080> in your browser.
 
 1. **Fork** this repository on GitHub.
 2. In your fork, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
-3. Push any change to `main`; a few minutes later it's live at `https://<your-username>.github.io/envelope-ledger/`.
+3. Push any change to `main`; a few minutes later it's live at `https://<your-username>.github.io/Envelope-Budgeting-Tool/`.
 
 ### Data & privacy
 

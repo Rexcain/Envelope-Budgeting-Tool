@@ -32,4 +32,4 @@
 
 ## 开发者日志
 
-- **2026-10-17 16:30 EDT · mac-mini** — 初始化项目 v0.1.0。从私人 artifact 版本提炼模型（滚动结余叠加在高线之上、四层水位、预算建议），改为 localStorage + 设置向导 + 示例数据 + 中英双语 + PWA。9 个模型测试通过；390px 下中英文截图检查过设置页、水位条、信封、建议表和明细表无溢出。README 写了中英双语的使用说明。仓库计划为公开的 `git@github.com:Rexcain/envelope-ledger.git`，需在 GitHub 上先建空仓库再推送。
+- **2026-10-17 16:30 EDT · mac-mini** — 初始化项目 v0.1.0。从私人 artifact 版本提炼模型（滚动结余叠加在高线之上、四层水位、预算建议），改为 localStorage + 设置向导 + 示例数据 + 中英双语 + PWA。9 个模型测试通过；390px 下中英文截图检查过设置页、水位条、信封、建议表和明细表无溢出。README 写了中英双语的使用说明。仓库计划为公开的 `git@github.com:Rexcain/Envelope-Budgeting-Tool.git`，需在 GitHub 上先建空仓库再推送。
