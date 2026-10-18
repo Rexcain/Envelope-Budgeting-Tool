@@ -33,3 +33,5 @@
 ## 开发者日志
 
 - **2026-10-17 16:30 EDT · mac-mini** — 初始化项目 v0.1.0。从私人 artifact 版本提炼模型（滚动结余叠加在高线之上、四层水位、预算建议），改为 localStorage + 设置向导 + 示例数据 + 中英双语 + PWA。9 个模型测试通过；390px 下中英文截图检查过设置页、水位条、信封、建议表和明细表无溢出。README 写了中英双语的使用说明。仓库计划为公开的 `git@github.com:Rexcain/Envelope-Budgeting-Tool.git`，需在 GitHub 上先建空仓库再推送。
+- **2026-10-17 21:24 EDT · mac-mini** — 修复线上 404：仓库没有启用 GitHub Pages，`pages.yml` 的 `configure-pages` 步骤报 Not Found。用 `gh api -X POST repos/Rexcain/Envelope-Budgeting-Tool/pages -f build_type=workflow` 启用（来源：GitHub Actions）后重跑部署，`https://rexcain.github.io/Envelope-Budgeting-Tool/` 及 js/sw/manifest 均返回 200。代码无需改动。
+- **2026-10-17 21:28 EDT · mac-mini** — README「数据与隐私」中英双语扩写为隐私承诺（作者不收集任何个人信息；无账号/后端/统计/追踪/cookie；注明 GitHub Pages 作为托管方可能有访问日志）；README 末尾许可证由 MIT 改为 GPL-3.0-or-later（LICENSE 与 package.json 此前已是 GPL）。核对过代码里没有第三方请求，`sw.js` 只处理同源。

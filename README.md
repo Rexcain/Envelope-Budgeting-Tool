@@ -67,7 +67,14 @@ python3 -m http.server 8080
 
 ### 数据与隐私
 
+**隐私承诺：作者不会收集你的任何个人信息。**
+
 - 所有记录、预算和设置都保存在浏览器的 `localStorage` 里，**不会上传到任何地方**。
+- 本应用没有账号、没有后端服务器，也**不使用**任何统计、分析、广告、追踪或第三方脚本，不设置 cookie。
+- 作者无法看到你的任何数据（包括金额、备注和设置），也不会向任何第三方出售或分享数据——因为作者根本拿不到。
+- 在线版托管在 GitHub Pages 上。和访问任何网站一样，GitHub 作为托管方可能会按[其隐私声明](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)记录访问日志（如 IP 地址）；这些日志由 GitHub 持有，作者不会获取，也与你的账本数据无关。
+- 如果你想完全不经过在线版，可以按「方式二」在自己电脑上运行。
+- 你的数据完全由你掌控：随时可以导出备份，也可以清除浏览器数据来彻底删除。
 - 换手机、换浏览器或清理浏览器数据之前，在页面底部点 **「导出备份 (JSON)」**；到新设备上点 **「导入备份」** 恢复。
 - 「导出 CSV」可以拿到 Excel / Numbers 里分析。
 - 同一个浏览器里不同网址（比如在线版和 localhost）的数据是分开的。
@@ -137,7 +144,14 @@ Then open <http://localhost:8080> in your browser.
 
 ### Data & privacy
 
+**Privacy promise: the author does not collect any of your personal information.**
+
 - Entries, budgets and settings are stored in your browser's `localStorage` and **never leave your device**.
+- There are no accounts and no backend server. The app uses **no** analytics, advertising, tracking or third-party scripts, and sets no cookies.
+- The author cannot see any of your data (amounts, notes, settings), and never sells or shares it with anyone — because the author never receives it.
+- The online version is hosted on GitHub Pages. As with any website, GitHub, as the host, may keep access logs (such as IP addresses) under [its own privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). Those logs are held by GitHub, not the author, and have nothing to do with your ledger data.
+- To avoid the hosted version entirely, run it on your own computer (Option 2).
+- Your data stays in your control: export a backup any time, or clear your browser data to delete it for good.
 - Before switching phones or browsers, or clearing browser data, tap **Export backup (JSON)** at the bottom of the page; use **Import backup** on the new device.
 - **Export CSV** gives you a file for Excel / Numbers.
 - Different addresses (e.g. the online version vs. localhost) keep separate data, even in the same browser.
@@ -160,4 +174,6 @@ Then open <http://localhost:8080> in your browser.
 
 ## License
 
-MIT © 2026 Menghan Rex Jiang
+GPL-3.0-or-later © 2026 Menghan Rex Jiang. See [LICENSE](LICENSE).
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
